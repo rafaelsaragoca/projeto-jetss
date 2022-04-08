@@ -1,0 +1,6 @@
+img {
+  filter: blur(0.7px);
+  filter: contrast(2s);
+  filter: saturate(2);
+  filter: brightness(1.3);
+}

@@ -1,0 +1,107 @@
+@media (max-width: 1014px) {
+  main {
+    width: 1014px;
+    margin: 0 auto;
+    position: absolute;
+  }
+  section {
+    position: relative;
+    left: 0;
+  }
+  .news1 {
+    height: 100%;
+    width: 1014px;
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+  }
+  .artigo1 {
+    height: 100%;
+  }
+  .artigo2 {
+    height: 100%;
+  }
+  .artigo3 {
+    height: 100%;
+  }
+  .artigo4 {
+    height: 100%;
+  }
+  .artigo5 {
+    height: 100%;
+  }
+}
+
+@media (max-width: 850px) {
+  main {
+    width: 850px;
+    margin: 0 auto;
+    position: absolute;
+  }
+  section {
+    position: relative;
+    left: 0;
+  }
+  .news1 {
+    height: 100%;
+    width: 850px;
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+  }
+}
+@media (max-width: 700px) {
+  main {
+    width: 700px;
+    margin: 0 auto;
+    position: absolute;
+  }
+  section {
+    position: relative;
+    left: 0;
+  }
+  .news1 {
+    height: 100%;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+  }
+}
+
+@media (max-width: 650px) {
+  main {
+    width: 650px;
+    margin: 0 auto;
+    position: absolute;
+  }
+  section {
+    position: relative;
+    left: 0;
+  }
+  .news1 {
+    height: 100%;
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+  }
+}
+@media (max-width: 500px) {
+  main {
+    width: 500px;
+    margin: 0 auto;
+    position: absolute;
+  }
+  section {
+    position: relative;
+    left: 0;
+  }
+  .news1 {
+    height: 100%;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+  }
+}
