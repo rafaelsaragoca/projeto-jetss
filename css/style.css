@@ -3,6 +3,23 @@ body {
   height: 1080px;
   display: block;
 }
+/*Main Style*/
+
+main {
+  width: 1500px;
+  height: 100%;
+  margin: 0 auto;
+  max-width: 1500px;
+  position: relative;
+  display: block;
+}
+
+/*Section Style*/
+section {
+  height: 430px;
+  width: 100%;
+  margin-top: 10px;
+}
 
 /*Header topo Style*/
 
@@ -80,19 +97,6 @@ figure {
   color: #8c002c;
 }
 
-/*Main Style*/
-section {
-  height: 100%;
-}
-main {
-  width: 1500px;
-  height: 100%;
-  margin: 0 auto;
-  max-width: 1500px;
-}
-
-/*Section Style*/
-
 /*Article Style*/
 .news1 {
   width: 1500px;
@@ -100,9 +104,9 @@ main {
   max-height: 100%;
   grid-gap: 2px;
   margin: 0 auto;
-  padding-top: 10px;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
+  overflow: hidden;
 }
 
 .artigo1 {
@@ -112,9 +116,8 @@ main {
   position: relative;
 }
 .artigo1 img {
-  right: 0;
   opacity: 80%;
-  width: 100%;
+  width: 120%;
   height: 100%;
   transition: transform 0.2s;
 }
@@ -198,6 +201,13 @@ main {
 }
 .artigo5:hover img {
   transform: scale(1.2);
+}
+article {
+  margin-top: 15px;
+}
+.anuncio {
+  display: flex;
+  justify-content: center;
 }
 
 /*Footer Style*/
